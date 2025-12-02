@@ -58,7 +58,7 @@ with st.form("prediction_form"):
     with c1:
         user_input['most_common_payment'] = st.selectbox("Payment Method", ["Card", "Cash", "Wallet", "UPI"])
     with c2:
-        user_input['city'] = st.selectbox("City", ["Metro", "Urban", "Semi-Urban", "Rural"]) # Update with your actual cities
+        user_input['city'] = st.selectbox("City", ["Karachi, "Lahore", "Islamabad", "Multan", "Peshawar"]) # Update with your actual cities
     with c3:
         user_input['gender'] = st.selectbox("Gender", ["Male", "Female", "Other"])
 
