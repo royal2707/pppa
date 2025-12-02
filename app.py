@@ -56,7 +56,7 @@ with st.form("prediction_form"):
     # Categorical Inputs (You might want to hardcode specific options if known, 
     # otherwise free text is risky. Here are assumed common values)
     with c1:
-        user_input['most_common_payment'] = st.selectbox("Payment Method", ["Card", "Cash", "Wallet", "UPI"])
+        user_input['most_common_payment'] = st.selectbox("Payment Method", ["Card", "Cash", "Wallet"])
     with c2:
         user_input['city'] = st.selectbox("City", ["Karachi", "Lahore", "Islamabad", "Multan", "Peshawar"]) 
     with c3:
